@@ -20,10 +20,7 @@ export const renderPrice = () => {
         const worksheet = workbook.Sheets[first_sheet_name];
         
         dataList = XLSX.utils.sheet_to_json(worksheet, { raw: true });
-
-        console.log(dataList[0]['Наименование продукции'].slice(0, 5))
-
-
+	    
         function numberWithSpaces(x) {
             return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
             }
