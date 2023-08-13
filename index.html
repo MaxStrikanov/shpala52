@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +18,17 @@
 <body>
 	<header class="header">
 		<div class="container">
+			<div class="header-top-items">
+				<div class="header-top-item">
+					<img src="img/GeoPoint.svg" alt="">
+					<div class="header-top-text">606030, Нижегородская область, г. Дзержинск, набережная Окская, д. 5</div>
+				</div>
+				<div class="header-top-item">
+					<img src="img/clock.svg" alt="">
+					<div class="header-top-text"><span>пн-сб</span> 10:00 до 22:00 <span>вс</span> до 21.00</div>
+				</div>
+				
+				</div>
 			<nav class="menu">
 				<div class="logo-wrapper">
 					<a href="/" class="logo">
@@ -31,13 +43,32 @@
 						</label>
 					</div>
 				</div>
+				<ul class="header-menu-items">
+					<li><a class="menu-item-link" data-link="price">О компании</a></li>
+					<li><a class="menu-item-link" data-link="benefits">Почему именно мы?</a></li>
+					<li><a class="menu-item-link" data-link="goods">Цены</a></li>
+					<li><a class="menu-item-link" data-link="delivery">Доставка</a></li>
+					<li><a class="menu-item-link" data-link="footer">Контакты</a></li>
+					<!-- <li><a data-link="">Оставить заявку</a></li> -->
+				</ul>
+				<div class="header-items">
+					<div class="header-item-phone">
+						<a href="tel:+78313285070" class="header-item">+7-831-328-50-70</a>
+						<a href="tel:+79036017383" class="header-item">+7-903-601-73-83</a>
+					</div>
+					
+
+					<button class="header-item-btn">
+						<img src="img/phone.svg" alt="">
+					</button>
+				</div>
 
 				<ul class="menu-items">
-					<li><a href="#">О компании</a></li>
-					<li><a href="#">Почему именно мы?</a></li>
-					<li><a href="#">Доставка</a></li>
-					<li><a href="#">Контакты</a></li>
-					<li><a href="#">Оставить заявку</a></li>
+					<li><a class="menu-item-link" data-link="price">О компании</a></li>
+					<li><a class="menu-item-link" data-link="benefits">Почему именно мы?</a></li>
+					<li><a class="menu-item-link" data-link="goods">Цены</a></li>
+					<li><a class="menu-item-link" data-link="delivery">Доставка</a></li>
+					<li><a class="menu-item-link" data-link="footer">Контакты</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -52,59 +83,28 @@
 								src="http://forumimage.ru/uploads/20141214/141857586205888766.jpg" />
 						</div>
 						<div class="slider__images-item" data-id="2"><img
-								src="https://lh3.googleusercontent.com/4Bn4zdADhWhegRcmxS1xmHxbxIBzEgB8ADfeaCmiwT9iF7y2mN9Wc5L7gFLxUo2bgl3V-97EFrOyE9OXfkvip3pkpNxYe50GiapeT41p7D7tNJm3oEdV8Y-7toGyvz0UZ8VgDACVTUEdzzVVm2NtQSCroSvmo4gL3u0ty-KAyKnah9vIitfw2Rs1MuNzQq6vmzUcw1_4obGAKmk_Nx0dD33RSy1jbT8D61kxERbOu0pHUciywIO2EeUX8iOcJfHHQwVW3lGYcZKSiimGjBUvzHILrSpVZQ1xUlj0U21EeY4Hil1ZaJQaX47hQezcxZj7H8GyWhNv2TzQ7EU8DS3_MonCLxXlnXfk-80nncPa8DxN_UlIzJeOPDiWPSLXFaDJn_ywCutx-0onw5rcSC815_krGHXKt3L_weD5pq_e_2WI3BRZndcR2jOYLz9BiUp52ouDBIDw2OzrDtUgxne9NaQ2tOJwaIR26N1un92ChTLhXZF2F2NoS3Do96TY6A5dP6RsXQzK6G0Z6oj5XtYx-p--PrdP8wiDPAzOqXQkXbJaX8l2qPi3nTYrD8rB-eKyL2E1q9xQ=w1600-h766" />
+								src="/img/slider-2.jpg" />
 						</div>
-						<div class="slider__images-item" data-id="3"><img
-								src="https://lh3.googleusercontent.com/r29_BOXT9GjEA49-KbPtzHtTxD16dilHpFROmoJyZdQbvCelXqgG8bcApe8OgIY-avTrFOUWO-lDsmI-muMIgRVc5IFHCIyrOR18DrnwTLh70aSNY6cTY0bNbyt4QCXBlj9R4fmA8PJMRYkTA-nB5zSvlZii9NnP9kG8w__DUrYfo9IbOZAxGY_DsheGuHA0CSWLB-lQwvHo7_sSNabsiZJ2C_878r7uEfaIR6XkjcyrWMKi529UtPl9Ikln3cXphy9HrzElIL6200dGL9GHiMMoASseLp_Z950xjT2smzTrOJSADFCG9EmScicKDbFTYZH6gyc2DEP0mUFRArhTSPa4TIUwLy9KR8bG7kV-ljmSPKv4pbtH4ByXgQ5DEm5ydOkR-DTkYkLBkcFL8cjiBPPuUdK3xkjoOciwjglMF5xAXhpnTj0VUnk3RWc9YDD-AQI2uvDatV_Ae0zzLQUIm2gfV3QiDXdkkzeLWsRmCXrr0bFf42s_1NrWD0GLfrTtHNqzBCfYbAWtjeBxHfMxlESqJLAvGketLMscx5PndptC0MRhGZESjWdRUE3kNxg7PA9EhTZg=w1600-h766" />
-						</div>
-						<div class="slider__images-item" data-id="4"><img
-								src="https://lh3.googleusercontent.com/7MsdX710gvwl8YRxuiPIlIbGP8d3ypDASWqIOad9SpHHAPwMATjCoftyvoHjpy9eeD8aJVxVup-Zb02QMeBSFOXyqOlVc8ib3TVIXtktozy6sJK07H8Jo8UlJSpYcfgUq83Z5rJOiGQQAaZPhRYUcCR0aenU8Eh8aTuqvttfZA-PjsU39q5_I1HcpWDF1mXIxJTmlGqsoQNIuL75GDE-I2im2tAjEk6bkJkJEbDntxB5cLJEfV8TuKRsQwenkiN5opF4ttHGXYtJlS7adu-IO4wVIFcEOzdx4c1Eri3O6f9qjsTpXQH3BmpkTaLAtL5xzJit9qa0a4Dp-aZOZp1QzWeB6-dLM5HRxSiPFkku3S1umwm_GBeY3glxd3Ftata1mFIxpis6gR76oTiNO33vjxn1UZXYhCQUDByGyyuE6WOoPtu9iXJxfmUF9UMXiXVl7qyH-U7NJmq18qcU0Q6U7H3VucD_d2Vg8WTZmqVq7aA4jQ7MLuQASgMZIerxgwV_aW98z7xsS8isHgF9rN4Qtez18OjyabQxRXlC6shvRTqTDCpt1MPlfBWwyR2BKO3dHzk7h8T5=w1600-h766" />
-						</div>
-						<div class="slider__images-item" data-id="5"><img
-								src="https://lh3.googleusercontent.com/lqd5x1eNHsfzWpPeHNPe4u-ycQh1LyxWLp_mXi8tLvQGh4aNCbANfSfSWQdqhQy7c2J2V3a4dGIw6tRcMJCpFvsRrLLpXcFgHIjWpCWoxtgWC--0tMjb6W-YYKJX55zIhS1omxmSGPuQx1sZtsAL-XnRiqXbEIjGX1A_vbDObqVEc8TP3nVsraN5xLtektJbccNriwqqZ2CqpiuHagXKCRt3oa7D8N2ZygR-i04o8YP2pHr6I0Z76R6lZj1HDY65Sj-mkPJpN6nWKY-V_6htmMndJRY615MHntdsfZ82k5_IBbJXxdIN5MjJvgk41eyFXxzTKIXSGms-itEbW7FqMlZT8bIAigDoXYub9rh-FjtfdmVRVdwIIngzFzJrJQBroyHPxW9kW2JjH8foZCzX5YMStsHvfm1s4uAhZtbwK4KI_-x9GuXI3-cCUmtuFdQ-E2z_l3Hom57dasvYj6tFcqhRS9X_popdYTxR-4IeSE-NAjp71LDevvejtAqQTvpIRMFhV9um8qOb-xkPRe0xSoR6-chA2cQE--cbFJiLxe6ywBIqW6lI-aSI9Kv924s-OfRUGz0u=w1600-h766" />
-						</div>
+						
 					</div>
 					<div class="slider__text">
 						<div class="slider__text-item slider__text-item--active" data-id="1">
 							<div class="slider__text-item-head">
-								<h3>Forest</h3>
+								<h3></h3>
 							</div>
 							<div class="slider__text-item-info">
-								<p>“And into the forest I go, to lose my mind and find my soul”</p>
+								<p></p>
 							</div>
 						</div>
 						<div class="slider__text-item" data-id="2">
 							<div class="slider__text-item-head">
-								<h3>Lake</h3>
+								<h3>Шпалы</h3>
 							</div>
 							<div class="slider__text-item-info">
-								<p>“Mist to mist, drops to drops. For water thou art, and unto water shalt thou return”</p>
+								<p>Шпалы деревянные пропитанные для железных дорог широкой колеи</p>
 							</div>
 						</div>
-						<div class="slider__text-item" data-id="3">
-							<div class="slider__text-item-head">
-								<h3>Cliffs</h3>
-							</div>
-							<div class="slider__text-item-info">
-								<p>“Go to the edge of the cliff and jump off. Build your wings on the way down”</p>
-							</div>
-						</div>
-						<div class="slider__text-item" data-id="4">
-							<div class="slider__text-item-head">
-								<h3>Mountains</h3>
-							</div>
-							<div class="slider__text-item-info">
-								<p>“What are men to rocks and mountains?”</p>
-							</div>
-						</div>
-						<div class="slider__text-item" data-id="5">
-							<div class="slider__text-item-head">
-								<h3>Peaks</h3>
-							</div>
-							<div class="slider__text-item-info">
-								<p>“On all the peaks lies peace”</p>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 				<div class="slider__nav">
@@ -115,16 +115,14 @@
 					<div class="slider__nav-dots" id="slider-dots">
 						<div class="slider__nav-dot slider__nav-dot--active" data-id="1"></div>
 						<div class="slider__nav-dot" data-id="2"></div>
-						<div class="slider__nav-dot" data-id="3"></div>
-						<div class="slider__nav-dot" data-id="4"></div>
-						<div class="slider__nav-dot" data-id="5"></div>
+						
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="price">
+	<section class="price" id="price">
 		<div class="container">
 			<h1 class="title-primary">Наша продукция</h1>
 			<div class="product-items">
@@ -156,11 +154,20 @@
 						<div class="product-item_description">Непропитанные деревянные шпалы в соответствии с требованиям ГОСТ</div>
 					</div>
 				</div>
+				<div class="product-item">
+					<div class="product-item_img">
+						<img src="img/spisok.png" alt="">
+					</div>
+					<div class="product-item-text">
+						<div class="product-item_name">Продукция по индивидуальному заказу</div>
+						<div class="product-item_description">Непропитанные деревянные шпалы в соответствии с требованиям ГОСТ</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="benefits">
+	<section class="benefits" id="benefits">
 		<div class="container">
 			<h1 class="title-primary">Наши преимущества</h1>
 			<div class="benefits-items">
@@ -232,9 +239,30 @@
 			<h1 class="title-primary">Доставка</h1>
 			<h2 class="delivery-title">Отгрузка продукции производится железнодорожным и автомобильным 
 транспортом.</h2>
-			
 
 			<div class="timeline"> 
+				<div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+					<div class="timeline__event__icon">
+						<i class="fa-solid fa-train-subway"></i>
+
+					</div>
+					<div class="timeline__event__date">
+
+					</div>
+					<div class="timeline__event__content">
+						<div class="timeline__event__title">
+							Норма погрузки в ЖД-транспорт:
+						</div>
+						<div class="timeline__event__description">
+							<ul>
+								<li><b>шпала 1 тип</b> – 630-700 штук в один полувагон, в зависимости от вида&nbsp;полувагона и
+									станции назначения,</li>
+								<li><b>шпала 2 тип</b> – 800-850 штук в один полувагон, в зависимости от вида полувагона и станции
+									назначения.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 				<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
 					<div class="timeline__event__icon ">
 					<i class="fa-solid fa-truck"></i>
@@ -249,29 +277,13 @@
 					</div>
 					<div class="timeline__event__description">
 						<ul>
-	<li><b>шпала 1 тип</b> – 230 штук,&nbsp;</li><li><b>шпала 2 тип</b> – 280 штук,<br>
-	</li>
-</ul>
+							<li><b>шпала 1 тип</b> – 230 штук,</li>
+							<li><b>шпала 2 тип</b> – 280 штук,<br></li>
+						</ul>
 					</div>
 					</div>
 				</div>
-				<div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
-					<div class="timeline__event__icon">
-					<i class="fa-solid fa-train-subway"></i>
-
-					</div>
-					<div class="timeline__event__date">
-					
-					</div>
-					<div class="timeline__event__content">
-					<div class="timeline__event__title">
-						Норма погрузки в ЖД-транспорт:
-					</div>
-					<div class="timeline__event__description">
-						<ul><li><b>шпала 1 тип</b> – 630-700 штук в один полувагон, в зависимости от вида&nbsp;полувагона и станции назначения,</li><li><b>шпала 2 тип</b> – 800-850 штук в один полувагон, в зависимости от вида полувагона и станции назначения.</li></ul>
-					</div>
-					</div>
-				</div>
+				
 				
 				</div>
 		</div>
@@ -295,16 +307,37 @@
 					</div>
 				</div>	
 				<div class="goods-items">
-
-					
-					
 				</div>
-			
 		</div>
 	</section>
 	
-	<footer class="footer">
+	<footer class="footer" id="footer">
 		<div class="container">
+			<h1 class="title-primary">Контакты</h1>
+
+			<div class="footer-items">
+				<div class="footer-item">
+					<div class="footer-item__feedback-form">
+						<h3 class="footer-item__feedback-title">Не нашли ответ на свой вопрос?<br>Оставьте заявку и мы свяжемся с вами.
+						</h3>
+						<form action="">
+							<input type="text" placeholder="Имя Фамилия">
+							<input type="phone" placeholder="+7 --- --- -- --">
+							<input type="text" placeholder="Ваш вопрос">
+							<input type="checkbox" name="" id="">
+							<button>Оставить заявку</button>
+						</form>
+					</div>
+				</div>
+				<div class="footer-item">
+					<div class="footer-item-map">
+						<iframe
+							src="https://yandex.ru/map-widget/v1/?um=constructor%3A83148891db91730757a3c448a4922110c3529e259e6d3e1ba0b0283068d7660f&amp;source=constructor"
+							width="100%" height="400" frameborder="0">
+						</iframe>
+					</div>
+				</div>
+			</div>
 		</div>
 	</footer>
 
