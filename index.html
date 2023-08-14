@@ -33,6 +33,7 @@
 				<div class="logo-wrapper">
 					<a href="/" class="logo">
 						<img src="img/logo-.png" alt="">
+						<p>ООО "ТОРГОВО-ПРОМЫШЛЕННАЯ КОМПАНИЯ"</p>
 					</a >
 					<div class="menu-toggle">
 						<label for="check">
@@ -292,6 +293,7 @@
 	<section id="goods" class="goods">
 		<div class="container">
 			<h1 class="title-primary">Прайс-лист</h1>
+			<div class="goods-items-wrapper">
 				<div class="goods-header">
 					<div class="goods-header-img">
 						Фото
@@ -300,14 +302,16 @@
 						Наименование
 					</div>
 					<div class="goods-header-price">
-						Цена 
+						Цена
 					</div>
 					<div class="goods-header-price">
-						за 
+						за
 					</div>
-				</div>	
+				</div>
 				<div class="goods-items">
 				</div>
+			</div>
+				
 		</div>
 	</section>
 	
@@ -322,10 +326,14 @@
 						</h3>
 						<form action="">
 							<input type="text" placeholder="Имя Фамилия">
-							<input type="phone" placeholder="+7 --- --- -- --">
+							<input type="text" placeholder="+7 --- --- -- --">
 							<input type="text" placeholder="Ваш вопрос">
-							<input type="checkbox" name="" id="">
-							<button>Оставить заявку</button>
+			
+							<input type="checkbox" id="personal" name="answer1" value="personal">
+							<label for="fb"><span></span>Я даю согласие на обработку
+								Персональных данных</label>
+							
+							<input type="submit" class="primary-btn" value="Оставить заявку"></input>
 						</form>
 					</div>
 				</div>
@@ -333,7 +341,7 @@
 					<div class="footer-item-map">
 						<iframe
 							src="https://yandex.ru/map-widget/v1/?um=constructor%3A83148891db91730757a3c448a4922110c3529e259e6d3e1ba0b0283068d7660f&amp;source=constructor"
-							width="100%" height="400" frameborder="0">
+							width="100%" height="500" frameborder="0">
 						</iframe>
 					</div>
 				</div>

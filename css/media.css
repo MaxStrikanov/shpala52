@@ -67,5 +67,11 @@
 	}
 	.header-items {
 		display: none;
-	}		
+	}	
+	.timeline {
+		padding: 0px 20px 20px 0;
+	}
+	.timeline__event {
+		padding: 20px;
+	}	
 }
