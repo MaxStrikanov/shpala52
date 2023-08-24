@@ -28,8 +28,6 @@ class Slider {
     this.activeText = el.getElementsByClassName(activeTextClass);
     this.images = el.getElementsByTagName('img');
 
-    document.getElementById('slider-dots').
-    addEventListener('click', this.onDotClick.bind(this));
 
     document.getElementById('left').
     addEventListener('click', this.prev.bind(this));
