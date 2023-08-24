@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
-	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:400;600;&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 	<title>Деревянные шпалы</title>
 </head>
@@ -310,28 +310,40 @@
 
 			<div class="footer-items">
 				<div class="footer-item">
+					<div class="footer-item-map">
+						<h3 class="footer-item-map__title">Юридический адрес</h3>
+						<h4 class="footer-item-map__text">606030, Нижегородская область, город Дзержинск, набережная Окская, дом 5</h4>
+						<iframe
+							src="https://yandex.ru/map-widget/v1/?um=constructor%3A83148891db91730757a3c448a4922110c3529e259e6d3e1ba0b0283068d7660f&amp;source=constructor"
+							width="100%" height="400" frameborder="0">
+						</iframe>
+					</div>
+				</div>
+				<div class="footer-item">
 					<div class="footer-item__feedback-form">
 						<h3 class="footer-item__feedback-title">Не нашли ответ на свой вопрос?<br>Оставьте заявку и мы свяжемся с вами.
 						</h3>
-						<form action="">
-							<input type="text" placeholder="Имя Фамилия">
-							<input type="text" placeholder="+7 --- --- -- --">
-							<input type="text" placeholder="Ваш вопрос">
+						<form action="" id="contactForm">
+							<input type="text" placeholder="Имя Фамилия" id="name">
+							<input type="text" placeholder="+7 (___) ___-__-__" id="phone">
+							<input type="text" placeholder="Ваш вопрос" id="message">
 			
 							<input type="checkbox" id="personal" name="answer1" value="personal">
 							<label for="fb"><span></span>Я даю согласие на обработку
 								Персональных данных</label>
 							
-							<input type="submit" class="primary-btn" value="Оставить заявку"></input>
+							<button id="submitButton" type="button" class="primary-btn" value="Оставить заявку"></button>
 						</form>
 					</div>
 				</div>
 				<div class="footer-item">
 					<div class="footer-item-map">
+						<h3 class="footer-item-map__title">Адрес производства</h3>
+						<h4 class="footer-item-map__text">606819, Нижегородская область, Уренский район, р.п. Арья, ул. 2-
+							Заводская, дом 13, Цех технологической щепы</h4>
 						<iframe
-							src="https://yandex.ru/map-widget/v1/?um=constructor%3A83148891db91730757a3c448a4922110c3529e259e6d3e1ba0b0283068d7660f&amp;source=constructor"
-							width="100%" height="500" frameborder="0">
-						</iframe>
+							src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad8b0a34e576ba98068eb8e2f6231bf6ce978605358db760eb78f2404ba712646&amp;source=constructor"
+							width="100%" height="400" frameborder="0"></iframe>
 					</div>
 				</div>
 			</div>
@@ -339,8 +351,8 @@
 	</footer>
 
 
-
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
 	<script src="https://kit.fontawesome.com/a0b2537197.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 	<script src="js/xlsx.full.min.js"></script>
