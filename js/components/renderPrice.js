@@ -21,9 +21,6 @@ export const renderPrice = () => {
         
         dataList = XLSX.utils.sheet_to_json(worksheet, { raw: true });
 
-        console.log(dataList[0]['Наименование продукции'].slice(0, 5))
-
-
         function numberWithSpaces(x) {
             return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
             }
@@ -42,7 +39,7 @@ export const renderPrice = () => {
                             </div>
                             <div class="goods-item-name">${dataList[i]['Наименование продукции']}</div>
 						<div class="good-item-price">${numberWithSpaces(dataList[i]['Цена'])}</div>
-                        <div class="good-item-price">${dataList[i]['Единицы']}</div>
+                        <div class="good-item-units">${dataList[i]['Единицы']}</div>
                         </div>
                     `
                 )
