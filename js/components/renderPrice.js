@@ -36,9 +36,15 @@ export const renderPrice = () => {
             const card =  document.querySelector('.goods-items');
 
                 card.insertAdjacentHTML('beforeend', `
-                <div class="goods-item">
+                <div class="goods-item"
+                    data-aos="zoom-out-right"
+					data-aos-offset="200"
+					data-aos-delay="50"
+					data-aos-duration="600"
+					data-aos-easing="ease-in-out"
+                >
                         <div class="goods-item-img">
-							<img src="${dataList[i]['Наименование продукции'].slice(0, 5) === 'Шпала'? 'img/--30black.jpg' : 'img/__29.jpg'} " alt="">
+							<img src="${dataList[i]['Наименование продукции'].slice(0, 5) === 'Шпала'? 'img/--30.png' : 'img/__29.png'} " alt="">
                             </div>
                             <div class="goods-item-name">${dataList[i]['Наименование продукции']}</div>
 						<div class="good-item-price">${numberWithSpaces(dataList[i]['Цена'])}</div>

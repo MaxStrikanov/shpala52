@@ -13,4 +13,6 @@ renderPrice()
 scroll()
 sendForm()
 
+AOS.init();
+
 
