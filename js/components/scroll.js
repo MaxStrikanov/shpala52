@@ -5,11 +5,10 @@ const  scroll = async () => {
 
     links.forEach(item => item.onclick = (e) => {
 		e.preventDefault()
-        document.getElementById(item.getAttribute('data-link')).scrollIntoView(
-            {
-                behavior: "smooth",
-				block: "center",
-				inline: "center"
+        
+        document.getElementById(item.getAttribute('data-link')).scrollBy({
+            
+            behavior: 'smooth'
             })
 			document.querySelector('.menu-items').classList.toggle('open');
     })
