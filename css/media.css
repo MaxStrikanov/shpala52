@@ -121,7 +121,7 @@
     .good-item-price {
         font-size: 16px;
         border-right: 1px solid var(--bg);
-            margin-top: -10px;
+            margin-top: -5px;
     }
     .good-item-units {
         font-size: 16px;
